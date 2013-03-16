@@ -1,0 +1,12 @@
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_height="fill_parent"
+	android:id="@+id/linearLayout1"
+	android:layout_width="fill_parent" android:background="#FFFFFF">
+	<TextView
+		android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Name" android:textColor="#0000FF" android:id="@+id/textView1"></TextView>
+	<TextView
+		android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Location" android:textColor="#000000" android:typeface="serif" android:textStyle="italic" android:id="@+id/textView2"></TextView>
+</LinearLayout>

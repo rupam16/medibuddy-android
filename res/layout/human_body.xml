@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ctc="http://schemas.android.com/apk/res/com.question"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:id="@+id/linearLayout1"
+		android:layout_height="wrap_content"
+		android:gravity="center" android:background="@drawable/title_bar_blue">
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/cross_button"
+			android:id="@+id/cross_humanbody_button"></Button>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/item_selected_tv"
+			android:text="0 item selected" android:textColor="#ffffff"></TextView>
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/check_humanbody_button" android:background="@drawable/check_button_selector"></Button>
+	</LinearLayout>
+	<com.question.ImageMap
+		android:id="@+id/map"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:src="@drawable/human_body"
+		ctc:map="human_body" />
+</LinearLayout>

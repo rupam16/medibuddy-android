@@ -1,0 +1,32 @@
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/popupbgd_small"
+	android:id="@+id/linearLayout1"
+	android:orientation="vertical"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent">
+	<EditText
+		android:id="@+id/editText1"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:hint="Username"
+		android:inputType="text"></EditText>
+	<EditText
+		android:id="@+id/editText2"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:inputType="textPassword"
+		android:hint="Password"></EditText>
+	<LinearLayout
+		android:id="@+id/linearLayout2"
+		android:orientation="vertical"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:weightSum="2" android:gravity="center">
+		<Button
+			android:layout_weight="1" android:id="@+id/login_ok" android:text="Login" android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/green_button_selector"></Button>
+		<Button
+			android:layout_weight="1" android:id="@+id/login_cancel" android:text="Cancel" android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/green_button_selector"></Button>
+	</LinearLayout>
+</LinearLayout>

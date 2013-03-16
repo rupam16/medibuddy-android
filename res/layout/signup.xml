@@ -1,0 +1,37 @@
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/linearLayout1"
+	android:orientation="vertical"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent" android:background="#FFFFFF">
+    <TextView android:layout_height="wrap_content" android:id="@+id/textView1" android:layout_width="match_parent" android:gravity="center" android:text="MediBuddy SignUp" android:textSize="24dip" android:textColor="#0000FF" android:typeface="serif"></TextView>
+	<EditText
+		android:id="@+id/editText1"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:hint="Email" android:inputType="textEmailAddress"></EditText>
+	<EditText
+		android:id="@+id/editText2"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:hint="Username"></EditText>
+	<EditText
+		android:id="@+id/editText3"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:hint="Password" android:inputType="textPassword"></EditText>
+	<Spinner android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/spinner1"></Spinner>
+	<EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editText4" android:hint="Your Doctor Identification Number"></EditText>
+	<LinearLayout
+		android:id="@+id/linearLayout2"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:weightSum="2">
+		<Button
+			android:id="@+id/button1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1" android:text="Signup"></Button>
+		<Button
+			android:id="@+id/button2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1" android:text="Cancel"></Button>
+	</LinearLayout>
+</LinearLayout>

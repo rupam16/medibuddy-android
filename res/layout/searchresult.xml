@@ -1,0 +1,36 @@
+	<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"		
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		android:id="@+id/linearLayout1">
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayout2"
+			android:background="@drawable/title_bar_blue"
+			android:gravity="center_vertical"
+			android:orientation="horizontal">
+			<Button
+				android:id="@+id/button1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Back" android:background="@drawable/left_buttons" android:textColor="#ffffff"></Button>
+			<TextView
+				android:id="@+id/textView1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:text="Search Result"
+				android:gravity="center" android:textColor="#ffffff"></TextView>
+		</LinearLayout>
+		<TextView
+			android:id="@+id/textView2"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="Count"
+			android:gravity="center"></TextView>
+		<ListView
+			android:layout_width="match_parent" android:id="@+id/result_list" android:layout_height="match_parent"></ListView>
+	</LinearLayout>
+
+

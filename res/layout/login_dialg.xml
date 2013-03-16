@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/linearLayout1" android:gravity="center" android:background="#ffffff">
+        <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:layout_width="fill_parent">
+            <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#000000" android:text="email       "></TextView>
+            <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:hint="k@x.com" android:id="@+id/email_login_edittext"></EditText>
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout3" android:layout_width="fill_parent" android:paddingBottom="10dip">
+            <TextView android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="password" android:textColor="#000000"></TextView>
+            <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/password_login_edittext" android:password="true"></EditText>
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout4" android:layout_width="fill_parent" android:gravity="center" android:paddingBottom="10dip">
+            <Button android:layout_height="wrap_content" android:text="login" android:layout_width="wrap_content" android:id="@+id/login_login_button" android:background="@drawable/blue_button_bar" android:textColor="#ffffff"></Button>
+            <Button android:layout_height="wrap_content" android:text="cancel" android:layout_width="wrap_content" android:id="@+id/cancel_login_button" android:background="@drawable/blue_button_bar" android:textColor="#ffffff"></Button>
+        </LinearLayout>
+        <Button android:layout_height="wrap_content" android:text="signup" android:layout_width="wrap_content" android:id="@+id/signup_login_button" android:background="@drawable/blue_button_bar" android:textColor="#ffffff"></Button>
+    </LinearLayout>

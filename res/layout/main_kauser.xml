@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+	android:orientation="vertical"
+	android:background="@drawable/background"
+	android:id="@+id/linearLayout1">
+	<LinearLayout
+		android:background="@drawable/title_bar_blue"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:id="@+id/linearLayout2" android:gravity="center_vertical">
+		<Button
+			android:id="@+id/back_ques_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="back"
+			android:background="@drawable/left_buttons" android:textColor="#ffffff"></Button>
+		<LinearLayout
+			android:layout_height="fill_parent"
+			android:id="@+id/linearLayout3"
+			android:layout_width="fill_parent" android:gravity="center_vertical|right">
+			<Button
+				android:id="@+id/ask_ques_button"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="ask"
+				android:background="@drawable/blue_button_bar" android:textColor="#ffffff"></Button>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:id="@+id/linearLayout4"
+		android:gravity="center">
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="&lt;disease name&gt;"
+			android:id="@+id/diseasename_tv"></TextView>
+	</LinearLayout>
+	<ListView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:id="@+id/ques_list"></ListView>
+</LinearLayout>

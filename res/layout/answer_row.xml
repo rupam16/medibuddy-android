@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:id="@+id/linearLayout1"
+	android:layout_height="fill_parent" android:orientation="vertical">
+	<LinearLayout android:layout_height="wrap_content"
+		android:background="@drawable/item_bgd"
+		android:layout_width="match_parent" android:id="@+id/linearLayout2">
+		<LinearLayout android:layout_height="match_parent"
+			android:layout_width="wrap_content" android:id="@+id/linearLayout3"
+			android:orientation="vertical" android:gravity="center">
+			<Button android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/inc_anser_button" android:background="@drawable/inc_selector"></Button>
+			<TextView android:text="rating" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/rating_answer_tv"></TextView>
+			<Button android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/dec_answer_button" android:background="@drawable/dec_selector">
+			</Button>
+		</LinearLayout>
+		<LinearLayout android:layout_height="match_parent"
+			android:id="@+id/linearLayout4" android:layout_width="match_parent"
+			android:orientation="vertical" android:gravity="center"
+			android:paddingLeft="20dip">
+			<TextView android:layout_height="wrap_content"
+				android:layout_width="match_parent" android:text="this is the answer "
+				android:id="@+id/answer_tv"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="doctor id "
+				android:id="@+id/docid_answer_tv"></TextView>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

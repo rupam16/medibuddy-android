@@ -1,0 +1,27 @@
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/title_bar_blue"
+	android:layout_width="fill_parent"
+	android:orientation="horizontal"
+	android:id="@+id/linearLayout1"
+	android:layout_gravity="top"
+	android:weightSum="20"
+	android:gravity="center_vertical"
+	android:layout_height="wrap_content" >
+	<WebView
+		android:layout_weight="1" android:layout_height="40dip" android:id="@+id/dis_img" android:layout_width="40dip" android:layout_marginTop="0dip"></WebView>
+	<TextView
+		android:layout_width="wrap_content"
+		android:text="TextView"
+		android:id="@+id/dis_name"
+		android:layout_weight="18"
+		android:layout_height="match_parent"
+		android:gravity="center" android:textStyle="bold" android:textColor="#FFFFFF"></TextView>
+	<Button
+		android:text="mat"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:id="@+id/match_symp"
+		android:layout_weight="1" android:textStyle="bold" android:textColor="#FFFFFF" android:background="@drawable/blue_button_bar"></Button>
+</LinearLayout>

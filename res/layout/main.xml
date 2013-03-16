@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:background="@drawable/background"
+	>
+	<LinearLayout
+		android:paddingTop="20dip"
+		android:orientation="vertical"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:background="@drawable/popupbgd_small"
+		android:id="@+id/linearLayout1">
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="Search Symptom by body regions"
+			android:typeface="serif"
+			android:id="@+id/button4"
+			android:background="@drawable/green_button_selector"
+			android:textColor="#ffffff"></Button>
+		<Button
+			android:id="@+id/button1"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:typeface="serif"
+			android:text="Search By common Symptom"
+			android:background="@drawable/green_button_selector"
+			android:textColor="#ffffff"></Button>
+		<Button
+			android:id="@+id/button2"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="Login"
+			android:typeface="serif"
+			android:background="@drawable/green_button_selector"
+			android:textColor="#ffffff"></Button>
+		<Button
+			android:id="@+id/button3"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:typeface="serif"
+			android:text="Signup"
+			android:background="@drawable/green_button_selector"
+			android:textColor="#ffffff"></Button>
+		<Button
+			android:id="@+id/button5"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:background="@drawable/green_button_selector"
+			android:textColor="#ffffff" android:text="Logout"></Button>
+	</LinearLayout>
+</LinearLayout>

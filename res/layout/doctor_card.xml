@@ -1,0 +1,47 @@
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent"
+	android:id="@+id/linearLayout1"
+	android:layout_width="fill_parent"
+	android:orientation="vertical" android:background="#FFFFFF">
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/linearLayout2"
+		android:orientation="horizontal">
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:id="@+id/linearLayout3">
+			<ImageView
+				android:src="@drawable/icon"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:id="@+id/imageView1"></ImageView>
+		</LinearLayout>
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:id="@+id/linearLayout4"
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:gravity="right">
+			<TextView
+				android:textColor="#0000FF"
+				android:textSize="16dip"
+				android:text="Name"
+				android:id="@+id/textView1"
+				android:layout_height="wrap_content" android:layout_width="match_parent" android:gravity="right"></TextView>
+			<TextView
+				android:text="Expert:" android:layout_width="match_parent" android:id="@+id/textView2" android:layout_height="wrap_content" android:gravity="right" android:textColor="#250517" android:layout_marginTop="5dip"></TextView>
+		</LinearLayout>
+	</LinearLayout>
+	<TextView
+		android:layout_width="match_parent"
+		android:id="@+id/textView3"
+		android:layout_height="wrap_content" android:text="Address :" android:textColor="#7e2217" android:layout_marginTop="20dip"></TextView>
+	<TextView
+		android:text="Phone :" android:layout_width="match_parent" android:id="@+id/textView4" android:layout_height="wrap_content" android:textColor="#254117" android:layout_marginTop="20dip"></TextView>
+	<TextView
+		android:textColor="#e56717" android:text="Visiting Hour :" android:layout_width="match_parent" android:id="@+id/textView5" android:layout_height="wrap_content" android:layout_marginTop="20dip"></TextView>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>
+<LinearLayout android:id="@+id/linear_lay_demo" android:layout_height="fill_parent" android:background="#9acd32" android:layout_width="fill_parent" android:orientation="vertical" android:padding="10dip">
+    <TextView android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Choose Your Symptoms" android:textColor="#000000" android:textSize="24dip" android:gravity="center"></TextView>
+    <TextView android:id="@+id/text_demo_fever" android:layout_width="fill_parent" android:text="fever" android:textSize="16sp" android:textStyle="bold" android:layout_height="wrap_content" android:textColor="#000000" android:gravity="center|left"></TextView>
+    <Spinner android:secondaryProgress="0" android:max="10" android:layout_gravity="center" android:layout_width="fill_parent" android:id="@+id/fever_spinner" android:layout_height="wrap_content"></Spinner>
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center">
+        <TextView android:layout_height="wrap_content" android:id="@+id/demo_rash" android:layout_width="fill_parent" android:text="rash" android:layout_alignParentLeft="true" android:textColor="#000000" android:textStyle="bold"></TextView>
+        <Spinner android:id="@+id/rash_spinner" android:layout_below="@+id/demo_rash" android:layout_alignLeft="@+id/demo_rash" android:layout_alignRight="@+id/demo_rash" android:layout_width="fill_parent" android:layout_height="wrap_content"></Spinner>
+        <TextView android:layout_height="wrap_content" android:id="@+id/demo_stool" android:layout_alignLeft="@+id/rash_spinner" android:layout_width="fill_parent" android:text="stool" android:layout_below="@+id/rash_spinner" android:textColor="#000000" style="" android:textStyle="bold"></TextView>
+        <Spinner android:id="@+id/stool_spinner" android:layout_below="@+id/demo_stool" android:layout_alignLeft="@+id/demo_stool" android:layout_alignRight="@+id/demo_stool" android:layout_width="fill_parent" android:layout_height="wrap_content"></Spinner>
+        <TextView android:layout_height="wrap_content" android:layout_alignLeft="@+id/stool_spinner" android:layout_width="fill_parent" android:text="vomit" android:layout_below="@+id/stool_spinner" android:textColor="#000000" android:id="@+id/demo_vomit" android:textStyle="bold"></TextView>
+        <Spinner android:id="@+id/vomit_spinner" android:layout_below="@+id/demo_vomit" android:layout_alignLeft="@+id/demo_vomit" android:layout_width="fill_parent" android:layout_height="wrap_content"></Spinner>
+        <TextView android:layout_height="wrap_content" android:layout_alignLeft="@+id/vomit_spinner" android:layout_width="fill_parent" android:text="cough" android:layout_below="@+id/vomit_spinner" android:textColor="#000000" android:id="@+id/demo_cough" android:textStyle="bold"></TextView>
+        <Spinner android:id="@+id/cough_spinner" android:layout_below="@+id/demo_cough" android:layout_alignLeft="@+id/demo_cough" android:layout_alignRight="@+id/demo_cough" android:layout_width="fill_parent" android:layout_height="wrap_content"></Spinner>
+        <TextView android:layout_height="wrap_content" android:id="@+id/demo_headache" android:layout_below="@+id/cough_spinner" android:layout_alignLeft="@+id/cough_spinner" android:text="headache" android:textColor="#000000" android:layout_width="fill_parent" android:textStyle="bold"></TextView>
+        <Spinner android:layout_below="@+id/demo_headache" android:layout_alignLeft="@+id/demo_headache" android:layout_width="fill_parent" android:id="@+id/headache_spinner" android:layout_height="wrap_content"></Spinner>
+        <Button android:layout_below="@+id/headache_spinner" android:layout_alignLeft="@+id/headache_spinner" android:layout_alignRight="@+id/headache_spinner" android:id="@+id/demo_suggest" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="suggest disease"></Button>
+        
+    </RelativeLayout>
+</LinearLayout>
+ </ScrollView>

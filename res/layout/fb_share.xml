@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:orientation="vertical" android:gravity="center|center_vertical" android:layout_height="wrap_content"
+    	android:paddingLeft="20dip"
+    	android:paddingRight="20dip"	
+    	 android:background="#2eccfa">
+        <Button android:text="post on my wall" android:id="@+id/postMy_fbshare_button" android:layout_height="wrap_content" android:layout_width="match_parent"></Button>
+        <Button android:text="post on friends wall" android:layout_height="wrap_content" android:id="@+id/postFr_fbshare_button" android:layout_width="match_parent"></Button>
+        <Button android:text="cancel" android:id="@+id/cancel_fbshare_button" android:layout_height="wrap_content" android:layout_width="match_parent"></Button>
+    </LinearLayout>

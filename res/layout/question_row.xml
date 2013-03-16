@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	android:orientation="vertical"
+	android:id="@+id/linearLayout1">
+	<LinearLayout
+		android:gravity="center_vertical"
+		android:background="@drawable/item_bgd"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:id="@+id/linearLayout2">
+		<LinearLayout
+			
+			android:layout_width="wrap_content"
+			android:id="@+id/linearLayout3"
+			android:orientation="vertical"
+			android:layout_height="wrap_content"
+			android:gravity="center">
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/up_button" android:background="@drawable/inc_selector"></Button>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="number"
+				android:id="@+id/rank_tv" android:textColor="#ffffff"></TextView>
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/down_button" android:background="@drawable/dec_selector"></Button>
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linearLayout4"
+			android:layout_width="fill_parent"
+			android:orientation="vertical"
+			android:paddingTop="20dip"
+			android:layout_height="wrap_content">
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="question#x: ???"
+				android:id="@+id/ques_tv" android:textColor="#ffffff"></TextView>
+			<TextView
+				android:layout_width="wrap_content"
+				android:id="@+id/comment_tv"
+				android:layout_height="wrap_content"
+				android:text="comment" android:textColor="#ffffff"></TextView>
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:id="@+id/linearLayout5"
+				android:gravity="center">
+				<Button
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:id="@+id/show_answer_button"
+					android:text="show ans" android:textColor="#ffffff" android:background="@drawable/blue_medium_button_selector"></Button>
+				<TextView
+					android:id="@+id/textView1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textColor="#c8fe2e"
+					android:text="asasasasasasa"></TextView>
+				<Button
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingLeft="10dip"
+					android:background="@drawable/facebook_logo_small"
+					android:text="share on"
+					android:gravity="bottom"
+					android:id="@+id/share_answer_button" android:textColor="#ffffff"></Button>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
