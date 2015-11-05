@@ -191,40 +191,6 @@ public class ImageMapTestActivity extends Activity {
 
 	}
 
-	/*public void addText(String areaname) {
-		String tvtext = region_name_tv.getText().toString();
-		int count = 0;
-		for (int i = 0; i < tvtext.length(); i++) {
-			if (tvtext.charAt(i) == '+')
-				count++;
-		}
-		if (count < 3 && (tvtext.indexOf(areaname) == -1)) {
-
-			if (!tvtext.equals("add_some_area_name")) {
-
-				region_name_tv.append("+" + areaname);
-			} else {
-				region_name_tv.setText(areaname);
-			}
-		}
-	}
-
-	public void removeText() {
-
-		reg_tv_text = region_name_tv.getText().toString();
-		lastAddedIndex = reg_tv_text.lastIndexOf("+");
-		if (lastAddedIndex != -1) {
-
-			reducedTv_text = reg_tv_text.substring(0, lastAddedIndex);
-			makeToast(reducedTv_text);
-			region_name_tv.setText(reducedTv_text);
-			
-		} else {
-			region_name_tv.setText("add_some_area_name");
-		}
-
-	}*/
-
 	public void addArea(String areaname) {
 		if(tvtext.indexOf(areaname)==-1){
 			if(count==0){
@@ -258,26 +224,6 @@ public class ImageMapTestActivity extends Activity {
 		}
 	}
 	
-
-	/*public void removeArea() {
-		reg_tv_text = tvtext;
-		lastAddedIndex = reg_tv_text.lastIndexOf("+");
-		if (lastAddedIndex != -1) {
-
-			reducedTv_text = reg_tv_text.substring(0, lastAddedIndex);
-			makeToast(reducedTv_text);
-
-			int count = 0;
-			for (int i = 0; i < reducedTv_text.length(); i++) {
-				if (reducedTv_text.charAt(i) == '+')
-					count++;
-			}
-			region_name_tv.setText(count + " item selected");
-		} else {
-			region_name_tv.setText("0 item selected");
-		}
-	}*/
-
 	public void makeToast(String msg) {
 		Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_LONG).show();
 	}
