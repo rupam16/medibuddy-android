@@ -1,4 +1,4 @@
-# medi-android: Predict disease based on symptoms given by user. 
+# medi-buddy: Predict disease based on symptoms given by user. 
 
 ### Objective:
 * We use simple decision tree for prediction. 
