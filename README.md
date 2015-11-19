@@ -1,4 +1,4 @@
-# medi-buddy: Predict disease based on symptoms given by user. 
+# Medi-Buddy: Predict disease based on symptoms given by user. 
 
 ### Objective:
 * We use simple decision tree for prediction. 
